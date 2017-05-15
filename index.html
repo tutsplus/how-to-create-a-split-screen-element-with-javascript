@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>How to Create a Split-screen Element with JavaScript</title>
+    <meta name="description" content="A demo file for Envato Tuts+.">
+    <meta name="author" content="Adi Purdila">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    
+    <div class="splitview skewed">
+        <div class="panel bottom">
+            <div class="content">
+                <div class="description">
+                    <h1>The original image.</h1>
+                    <p>This is how the image looks like before applying a duotone effect.</p>
+                </div>
+
+                <img src="original-image.jpg" alt="Original">
+            </div>
+        </div>
+
+        <div class="panel top">
+            <div class="content">
+                <div class="description">
+                    <h1>The duotone image.</h1>
+                    <p>This is how the image looks like after applying a duotone effect.</p>
+                </div>
+
+                <img src="duotone-image.jpg" alt="Duotone">
+            </div>
+        </div>
+
+        <div class="handle"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
